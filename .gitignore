@@ -1,0 +1,147 @@
+# Byte-compiled / C / Pyc files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.cython-*.cpp
+*.egg
+.Python
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+.tox/
+.nox/
+.nose/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py, cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+cover/
+
+# Environments
+.env
+.env.local
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Data science / ML
+data/raw/
+data/processed/
+data/external/
+models/
+checkpoints/
+*.h5
+*.pkl
+*.joblib
+artifacts/
+dvc-cache/
+mlruns/
+lightning_logs/
+wandb/
+tensorboard/
+*.csv.training
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+jupyter_runtime/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv / poetry / pdm / pipenv / uv
+.python-version
+Pipfile.lock
+poetry.lock
+pdm.lock
+pdm.toml
+.pdm-python
+.pdm-build/
+uv.lock
+pixi.lock
+.pixi
+__pypackages__/
+
+# MLflow / Weights&Biases / TensorBoard
+mlflow/
+wandb/
+runs/
+lightning_logs/
+tensorboard/
+
+# Docker
+.dockerignore
+*.log
+Dockerfile.*
+docker-compose.override.yml
+.docker/
+
+# IDE: VSCode, PyCharm, Spyder
+.vscode/
+.vscode-test/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+
+# Build / dist
+build/
+dist/
+target/
+
+# Misc
+.pypirc
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+cython_debug/
